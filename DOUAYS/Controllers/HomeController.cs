@@ -6,6 +6,39 @@ namespace DOUAYS.Controllers;
 
 public class HomeController : Controller
 {
+    //Bilgi Takip İstek Mail Tablosu
+    public IActionResult BilgiTakip()
+    {
+        return View();
+    }
+    
+    //Depo Malzemeleri Tahmini Dağılım Tablosu
+    public IActionResult DepoMalzemeleri()
+    {
+        return View();
+    }
+
+    //Tanıtım Müdürlüğü Haftalık Program
+    public IActionResult HaftalıkProgram()
+    {
+        return View();
+    }
+    //Seminer ve Kariyer Takvimi
+    public IActionResult SeminerKariyerTakvimi()
+    {
+        return View();
+    }
+    //Ziyaret Edilen Kurum Listesi
+    public IActionResult ZiyaretKurum()
+    {
+        return View();
+    }
+    //Aday Öğrenci Bilgi Formu
+    public IActionResult AdayOgrenci()
+    {
+        return View();
+    }
+   
     public IActionResult Index()
     {
         return View();
